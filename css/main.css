@@ -1,27 +1,30 @@
-body
-{
-	font-size: 16px;
-}
-
 .hidden
 {
 	display: none;
 }
 
+body
+{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+	width: 1080px;
+	align-content: center;
+	background-color: #333;
+}
+
 .mainHeader
 {
 	width: 100%;
-	height: 500px;
+	height: 300px;
 }
 
 .logoHeader
 {
 	width: 200px;
-}
-
-.container
-{
-	width: 1280px;
 }
 
 .main-headline
@@ -33,7 +36,8 @@ body
 
 .icon
 {
-	display: inline-flex;
+	display: flex;
+	flex-direction: row;
 }
 
 .iconDisplay
@@ -41,12 +45,14 @@ body
 	width: 20%;
 	min-width: 155px;
 	max-width: 375px;
+	padding: 20px;
 	align-self: center;
 }
 
 .iconDisplay h3
 {
 	text-align: center;
+	padding-top: 10px;
 }
 
 .imageContainer
